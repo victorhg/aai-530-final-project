@@ -1,4 +1,4 @@
-# US - DAAI 530 Final Project - Group 7 
+# USD - DAAI 530 Final Project - Group 7 
 Shiley-Marcos School of Engineering, University of San Diego AAI-500: Probability and Statistics
 
 Group members
