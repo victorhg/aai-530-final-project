@@ -1,0 +1,16 @@
+# base docker image
+FROM python:3.11-slim
+
+RUN apt-get update
+RUN apt-get install -y \
+    git \
+    texlive-xetex \
+    pandoc
+
+# working directory
+WORKDIR /app
+COPY requirements.txt /app/
+
+# installs
+RUN pip install --upgrade pip && \
+    pip install -r ./requirements.txt

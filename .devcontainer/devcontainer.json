@@ -1,0 +1,13 @@
+{
+    "name": "devbox-AAI",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "ms-toolsai.jupyter",   // Jupyter extension
+        "ms-python.python",     // Python extension
+        "ms-toolsai.jupyter-keymap",
+        "adammaraszek.vscode-pdf"
+    ],
+    "settings": {
+        "python.pythonPath": "/usr/local/bin/python"
+    }
+}
