@@ -6,3 +6,4 @@ ehthumbs.db
 Icon?
 Thumbs.db
 *.DS_Store
+.ipynb_checkpoints/
