@@ -7,4 +7,5 @@ Icon?
 Thumbs.db
 *.DS_Store
 *traffic*[.csv, .tar.gz, .zip] 
+*pollution*[.csv, .tar.gz, .zip] 
 
