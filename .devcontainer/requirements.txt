@@ -9,3 +9,4 @@ nbconvert
 folium
 keras
 branca
+geopy

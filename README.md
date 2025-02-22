@@ -31,7 +31,11 @@ cd <repository-directory>
 
 2. Open the Project in VS Code. `code .`
 3. Rebuild and Open the Container. Use the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on macOS) to select Remote-Containers: Rebuild Container. VS Code will build the Docker image based on the configuration in the .devcontainer directory and open the project inside the container.
-4. Once inside the development container, you can use juputer notebooks (without an exposed port).
+4. Once inside the development container, you can use juputer notebooks (without an exposed port). **NOTE: the data needs to be downloaded into the `data` folder to go through preprocessing, but the data used to train our models is already there.**
+
+## Repository Structure
+
+
 
 ## Additional Features
 
