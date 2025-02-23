@@ -10,3 +10,4 @@ folium
 keras
 branca
 geopy
+nbstripout
