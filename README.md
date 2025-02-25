@@ -1,4 +1,4 @@
-# USD - DAAI 530 Final Project - Group 7 
+# USD - AAI 530 Final Project - Group 7 
 Shiley-Marcos School of Engineering, University of San Diego AAI-500: Probability and Statistics
 
 Group members
@@ -7,7 +7,8 @@ Group members
 - Victor Hugo Germano
 
 Files
-- [Driver Folder with documents and colaboration files](https://drive.google.com/drive/u/1/folders/1Ho0cbkQrALTQ1QajB23yyNN9-QqUVm4Z)
+- [Google Drive Folder with documents and colaboration files](https://drive.google.com/drive/u/1/folders/1Ho0cbkQrALTQ1QajB23yyNN9-QqUVm4Z)
+- [Tableau Project Dashboard](https://public.tableau.com/app/profile/shaun.friedman2479/viz/SmartTrafficGrid/Dashboard1)
 
 ## Introduction
 
@@ -17,7 +18,7 @@ This repository utilizes a Docker-based environment, called a Development Contai
 
 ## Prerequisites
 1. Docker: Install Docker on your machine. Follow the instructions here to get Docker installed.
-2. Visual Studio Code: Install Visual Studio Code from here.
+2. Visual Studio Code or your preferred code editor.
 3. Remote - Containers Extension: Install the "Remote - Containers" extension for VS Code from the Extensions Marketplace.
 
 ## Quick Start Guide
@@ -25,15 +26,19 @@ This repository utilizes a Docker-based environment, called a Development Contai
 1. Begin by cloning the repository that contains the development container configuration:
 
 ```
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/victorhg/aai-530-final-project.git
+cd aai-530-final-project
 ```
 
 2. Open the Project in VS Code. `code .`
 3. Rebuild and Open the Container. Use the Command Palette (Ctrl+Shift+P or Cmd+Shift+P on macOS) to select Remote-Containers: Rebuild Container. VS Code will build the Docker image based on the configuration in the .devcontainer directory and open the project inside the container.
-4. Once inside the development container, you can use juputer notebooks (without an exposed port).
+4. Once inside the development container, you can use juputer notebooks (without an exposed port). **NOTE: Included in the raw_datasets folder is the traffic datasets, otherwise data is pulled directly from the [University of Surrey server](http://iot.ee.surrey.ac.uk:8080/datasets/).**
 
-## Additional Features
+## Repository Structure
+
+![file layout](images/repository-structure.png)
+
+## Additional Repository Features
 
 #### Eporting a Jupyter Notebook as PDF. 
 
@@ -42,15 +47,11 @@ You can add a `--output` flag if you want to specify the output file name otherw
 jupyter nbconvert --to pdf <file_name.ipynb>
 ```
 
-## TODO
-[] Data Ingestion & Preprocessing
-    - Weather Dataset - Tori
-    - Road Traffic & Parking - Shaun
-    - City Events (Library & Culture) - Victor
-[] Dataset Combinations
-[] Model Selection
-[] Model Training
+## Data Rights
 
-## Reference
+The datasets used are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
+## References
+
+- [CityPulse project in Aarhus, Denmark](http://iot.ee.surrey.ac.uk:8080/index.html)
 - [USD Final Project Reference Document](https://sandiego.instructure.com/courses/17674/pages/review-final-team-project-description?module_item_id=663812)
