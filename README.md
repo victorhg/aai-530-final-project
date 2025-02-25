@@ -14,7 +14,7 @@ Files
 This study leverages real-time data from the CityPulse project in Aarhus, Denmark, to explore how artificial intelligence (AI) and machine learning can enhance urban planning and sustainability. The CityPulse initiative collects diverse data through Internet of Things (IoT) sensors, including traffic patterns, parking occupancy, pollution levels, and weather conditions. This study integrates these datasets and then implements Long Short-Term Memory (LSTM) networks to analyze the complex interactions between environmental and infrastructural factors in the city. The primary goal is to generate actionable insights to optimize transportation systems, reduce pollution, and improve city planning. The findings aim to provide urban planners, administrators, and the public with data-driven strategies to make informed decisions about sustainable urban development. The research also includes an IoT system diagram to assist other cities in adopting similar approaches for AI-driven smart city solutions
 
 
-## Tech Introduction
+## Workspace setup
 
 This project aims to leverage time series sensor data to better understand the interplay between environmental and infrastructural factors influencing traffic and air quality in Aarhus, Denmark. By combining datasets from road traffic, weather, parking, and city events, we aim to build predictive models that assist urban planners, city administrators, and the public in making data-driven decisions on transportation and environmental management. 
 
